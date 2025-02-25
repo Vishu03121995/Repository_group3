@@ -9,7 +9,13 @@ def sumtwonum(x,y):
 
 sumtwonum(3,4)
 
-def multiplytwonum(x,y):
-    return (x*y)
+def prod(x,y):
+    return(x*y)
 
-sumtwonum(3,4)
+prod(2,4)
+
+def doc(x):
+    '''take the number and multiply it by itself'''
+    return(x*x)
+
+doc(4)
